@@ -11,5 +11,6 @@
 	},
 	width: '90%',
 	height: "70dp",
-	top: '10%'
+	top: '10%',
+	color: 'black'
 }

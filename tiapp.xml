@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ti:app xmlns:ti="http://ti.appcelerator.org">    
+<ti:app xmlns:ti="http://ti.appcelerator.org">
     <property name="acs-api-key-development" type="string">ODyin5WE76kRPUQpMi9s7dOa20kLtslk</property>
     <property name="acs-oauth-secret-development" type="string">9l0NGaix64t2EuWp02WcANo66w4d9g1s</property>
     <property name="acs-oauth-key-development" type="string">Bp7nWvBenlPfG0NRzcGFy5463BZVippV</property>
@@ -8,7 +8,7 @@
     <version>1.0</version>
     <publisher>bryandent</publisher>
     <url>http://dent.ly</url>
-    <description/>
+    <description>undefined</description>
     <copyright>2014 by bryandent</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
