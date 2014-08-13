@@ -1,0 +1,15 @@
+"MenuItem": {
+	showAsAction: Ti.Android.SHOW_AS_ACTION_IF_ROOM,
+},
+
+".inputField": {
+	borderColor: 'black',
+	borderRadius: 5,
+	font:{
+		fontSize: '24dp',
+		fontWeight: 'normal'
+	},
+	width: '90%',
+	height: "70dp",
+	top: '10%'
+}

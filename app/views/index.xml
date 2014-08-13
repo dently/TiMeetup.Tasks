@@ -1,0 +1,27 @@
+<Alloy>
+	<!-- iOS Structure -->
+	<NavigationWindow id="navWindow" platform="ios">
+		<Window id="indexWindow" title="Tasks">
+			<RightNavButton>
+				<Button id="addTask">+</Button>
+			</RightNavButton>
+			<ListView id="taskList">
+		        <ListSection>		                      
+		        </ListSection>
+		    </ListView>
+		    <Label id="noResults" visible="false">No tasks yet.</Label>
+		</Window>
+	</NavigationWindow>
+
+	<!-- Android Structure -->
+	<Window id="indexWindow" platform="android" title="Tasks">
+		<RightNavButton>
+			<Button id="addTask">+</Button>
+		</RightNavButton>
+		<ListView id="taskList">
+	        <ListSection>		                      
+	        </ListSection>
+	    </ListView>
+	    <Label id="noResults" visible="false">No tasks yet.</Label>
+	</Window>
+</Alloy>
