@@ -29,8 +29,11 @@ if($.params){
 	}
 }
 
-$.saveBtn.addEventListener("click", function(e){
-	
+//$.saveBtn.addEventListener("click", function(e){
+//	saveTask();
+//});
+
+function saveTask() {
 	//Search for the existing task and update it.
 	if(isEditMode){
 		_.each(Alloy.Globals.tasks, function(task){
@@ -50,13 +53,6 @@ $.saveBtn.addEventListener("click", function(e){
 		Ti.App.fireEvent('app:taskAdded', newTask);		
 		$.window.close();
 	}
-});
-
-/**
- * Handle opening a new screen
- */
-function handleMenuItem() {
-	App.Navigator.open("taskDetail");
 }
 
 if(OS_ANDROID) {

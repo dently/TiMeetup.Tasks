@@ -1,14 +1,14 @@
 <Alloy>
 	<Window id="window">
 		<RightNavButton>
-			<Button id="saveBtn">Save</Button>
+			<Button id="saveBtn" onClick="saveTask">Save</Button>
 		</RightNavButton>
 		<Menu id="menu" platform="android">
 			<MenuItem
 				id="menuItem"
-				title="New Screen"
+				title="Save"
 				showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS"
-				onClick="handleMenuItem" />
+				onClick="saveTask" />
 		</Menu>
 		<View id="wrapper">
 			<TextField hintText="Task name" id="taskName" class="inputField"></TextField>
